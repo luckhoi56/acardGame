@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    font-size: 25px;
+    font-family: futura;
+}
+
+div.result{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: none;
+	background: #fff;
+}
+
+div.result.show{
+	z-index: 1;
+	display: block;
+}
+
+div.credit{
+	font-size: small;
+}
+
+button.restart{
+	margin: 40px 0px 0px 0px;
+	background: #CFC;
+	border-radius: 10px;
+	padding: 10px;
+	font-weight: bold;
+	cursor: pointer;
+}
